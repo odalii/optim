@@ -1,0 +1,6 @@
+{
+  "name": "KerfPlan",
+  "description": "Precision cabinet component workspace and 2D sheet cutting optimization tool for woodworking and cabinet manufacturing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
