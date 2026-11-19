@@ -3,6 +3,11 @@ import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
+export default defineConfig({
+  base: '/optim/', // Crucial for GitHub Pages subfolders
+  plugins: [react()],
+  // ... rest of your config
+})
 
 export default defineConfig(() => {
   return {
